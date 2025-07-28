@@ -18,12 +18,10 @@ buy_button = st.button("Buy")
 sell_button = st.button("Sell")
 
 if buy_button:
-    st.write(f"📈 You bought {stock_symbol}!")
-    # Simulate buy logic here
+    st.write(f"You bought {stock_symbol}!")
 
 if sell_button:
-    st.write(f"📉 You sold {stock_symbol}!")
-    # Simulate sell logic here
+    st.write(f"You sold {stock_symbol}!")
 
 # Button to fetch and plot
 if st.button("Fetch and Plot"):
@@ -61,5 +59,5 @@ if st.button("Fetch and Plot"):
                 # Wait for 10 seconds before updating
                 time.sleep(60)
             else:
-                st.error("⚠️ No data found. Please check the symbol and try again.")
+                st.error("No data found. Please check the symbol and try again.")
 # To run "python -m streamlit run app.py"
