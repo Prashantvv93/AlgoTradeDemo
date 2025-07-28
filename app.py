@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 
 # Title of the app
-st.title("📈 Moving Averages Crossover Strategy (demo app)")
+st.title("Moving Averages Crossover Strategy (demo app)")
 
 # Input for stock symbol
 stock_symbol = st.text_input("Enter Stock Symbol Only (Example: AAPL, TSLA, MSFT):", value="AAPL")
